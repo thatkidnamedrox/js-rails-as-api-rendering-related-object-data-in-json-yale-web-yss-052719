@@ -5,12 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+Bird.destroy_all
 bird_a = Bird.create(name: "Black-Capped Chickadee", species: "Poecile Atricapillus")
 bird_b = Bird.create(name: "Grackle", species: "Quiscalus Quiscula")
 bird_c = Bird.create(name: "Common Starling", species: "Sturnus Vulgaris")
 bird_d = Bird.create(name: "Mourning Dove", species: "Zenaida Macroura")
-
 
 location_a = Location.create(latitude: "40.730610", longitude: "-73.935242")
 location_b = Location.create(latitude: "30.26715", longitude: "-97.74306")
